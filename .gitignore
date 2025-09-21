@@ -1,0 +1,34 @@
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# External packages (do not track)
+rf2o_laser_odometry/
+sllidar_ros2/
+transport_drivers/
+
+# Python cache
+*.pyc
+__pycache__/
+
+# Colcon / CMake
+.colcon/
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+cmake_install.cmake
+Makefile
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Other temporary
+*.bak
+*.tmp
